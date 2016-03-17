@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html ng-app="sampleApp">
+<head>
+    <title>Directivas de Elementos y Eventos</title>
+    <link href="styles/bootstrap.css" rel="stylesheet" />
+    <link href="styles/bootstrap-theme.css" rel="stylesheet" />    
+    <style>
+       
+    </style>
+</head>
+<body>
+    <div class="well" ng-controller="sampleCtrl">
+       
+    </div>
+
+
+    <script src="scripts/angular.js"></script>
+    <script>
+        angular.module("sampleApp", [])
+             .controller("sampleCtrl", function ($scope) {
+
+                 $scope.ciudad = 'Madrid';
+
+                 $scope.getPais = function () {
+
+                 };
+        });
+    </script>
+</body>
+</html>
