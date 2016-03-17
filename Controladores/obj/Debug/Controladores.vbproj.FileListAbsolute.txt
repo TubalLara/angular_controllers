@@ -1,0 +1,9 @@
+c:\users\arranque2\documents\visual studio 2013\Projects\Controladores\Controladores\bin\Controladores.dll.config
+c:\users\arranque2\documents\visual studio 2013\Projects\Controladores\Controladores\bin\Controladores.dll
+c:\users\arranque2\documents\visual studio 2013\Projects\Controladores\Controladores\bin\Controladores.pdb
+c:\users\arranque2\documents\visual studio 2013\Projects\Controladores\Controladores\bin\Controladores.xml
+c:\users\arranque2\documents\visual studio 2013\Projects\Controladores\Controladores\obj\Debug\Controladores.Resources.resources
+c:\users\arranque2\documents\visual studio 2013\Projects\Controladores\Controladores\obj\Debug\Controladores.vbproj.GenerateResource.Cache
+c:\users\arranque2\documents\visual studio 2013\Projects\Controladores\Controladores\obj\Debug\Controladores.dll
+c:\users\arranque2\documents\visual studio 2013\Projects\Controladores\Controladores\obj\Debug\Controladores.xml
+c:\users\arranque2\documents\visual studio 2013\Projects\Controladores\Controladores\obj\Debug\Controladores.pdb

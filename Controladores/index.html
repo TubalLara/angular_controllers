@@ -8,9 +8,17 @@
        
     </style>
 </head>
-<body>
-    <div class="well" ng-controller="sampleCtrl">
-       
+<body ng-controller="sampleCtrl">
+
+    <div class="well">
+        Selecciona ciudad:
+        <select ng-options="item for item in ciudades" ng-model="ciudad">
+           
+        </select>
+    </div>
+    <div class="well" ng-cloak>
+        <p>Ciudad: {{ciudad}}</p>
+        <p>País: {{getPais(ciudad) || ''}}</p>
     </div>
 
 
@@ -19,12 +27,21 @@
         angular.module("sampleApp", [])
              .controller("sampleCtrl", function ($scope) {
 
+                 $scope.ciudades = ["Madrid", "Roma", "Paris"];
                  $scope.ciudad = 'Madrid';
 
-                 $scope.getPais = function () {
-
+                 $scope.getPais = function (ciudad) {
+                     switch (ciudad) {
+                         case "Madrid":
+                             return "España";
+                         case "Roma":
+                             return "Italia";
+                         case "Paris":
+                             return "Francia";
+                     };
                  };
-        });
+             });
     </script>
 </body>
+
 </html>
